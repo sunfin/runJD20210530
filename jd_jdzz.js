@@ -52,7 +52,7 @@ const inviteCodes = [
   $.tuanList = []
   await requireConfig();
   if (helpAuthor) await getAuthorShareCode('https://raw.githubusercontent.com/sunfin/runJD20210530/master/jd_zz.json');
-  //if (helpAuthor) await getAuthorShareCode('https://raw.githubusercontent.com/sunfin/runJD20210530/sunfin/runJD20210530/master/backUp/zztuan.json');
+  //if (helpAuthor) await getAuthorShareCode('https://raw.githubusercontent.com/sunfin/runJD20210530/master/backUp/zztuan.json');
   if (!cookiesArr[0]) {
     $.msg($.name, '【提示】请先获取京东账号一cookie\n直接使用NobyDa的京东签到获取', 'https://bean.m.jd.com/bean/signIndex.action', {"open-url": "https://bean.m.jd.com/bean/signIndex.action"});
     return;
