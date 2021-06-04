@@ -37,7 +37,7 @@ jobs:
       - name: '蒙牛有机牧场'
         run: |
           #sleep 1
-          #Curl https://raw.githubusercontent.com/sunfin/JDBeiFen20210530/master/jd_monk_pasture.js -o jd_monk_pasture.js
+          #Curl https://raw.githubusercontent.com/sunfin/runJD20210530/master/jd_monk_pasture.js -o jd_monk_pasture.js
           node jd_monk_pasture.js
         env:
           JD_COOKIE: ${{ secrets.JD_COOKIE }}
