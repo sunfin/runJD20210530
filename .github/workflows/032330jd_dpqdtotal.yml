@@ -37,10 +37,10 @@ jobs:
       - name: '签到'
         run: |
 
-          curl https://raw.githubusercontent.com/sunfin/JDBeiFen20210530/master/jd_shop_follow_sku.js -o jd_shop_follow_sku.js
+          curl https://raw.githubusercontent.com/sunfin/runJD20210530/master/jd_shop_follow_sku.js -o jd_shop_follow_sku.js
           node jd_shop_follow_sku.js
           sleep 5
-          curl https://raw.githubusercontent.com/sunfin/JDBeiFen20210530/master/jd_shop_lottery.js -o jd_shop_lottery.js
+          curl https://raw.githubusercontent.com/sunfin/runJD20210530/master/jd_shop_lottery.js -o jd_shop_lottery.js
           node jd_shop_lottery.js
           sleep 5
                   
